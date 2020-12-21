@@ -1,0 +1,30 @@
+import pygame,sys,os
+
+TILE_SIZE = 45
+GRID_WIDTH = 28         # x grids of width
+GRID_HEIGHT = 15         # y grids of height 
+WIDTH = TILE_SIZE * GRID_WIDTH
+HEIGHT = TILE_SIZE * GRID_HEIGHT
+FPS = 60
+
+FONT_NAME = pygame.font.match_font("comicsansms")
+TITLE = "HENRY's Project"
+
+BACKGROUND_COLOR = "#074e67"
+
+GRID_COLOR = "#edb73c"
+WALL_COLOR = "#edb73c"
+
+BUTTON_WIDTH = TILE_SIZE + 90 
+BUTTON_HEIGHT = TILE_SIZE + 2 
+BUTTON_HOVER_WIDTH = TILE_SIZE + 110 
+BUTTON_HOVER_HEIGHT = TILE_SIZE + 6 
+BUTTON_COLOR = "#6a0241"
+BUTTON_HOVER_COLOR = "#51ff00"
+
+TEXT_COLOR = "white"
+TEXT_SIZE = TILE_SIZE - 26 #22
+TEXT_HOVER_COLOR = "black"
+TEXT_HOVER_SIZE = TILE_SIZE - 23 #25
+
+LETTER_SIZE = TILE_SIZE + 102 #150
