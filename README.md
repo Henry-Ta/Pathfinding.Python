@@ -32,6 +32,17 @@ $ python Main.py
   - P Key to print out the wall list ( in case, users want to save their own maps to reuse after closing )
   - Esc Key to exit
 ## Screenshots
+
+Home
+![](./Screenshot1.png)
+
+
+Straight Path
+![](./Screenshot2.png)
+
+
+Diagonal Path
+![](./Screenshot3.png)
 ## Features
 Implements path finding algorithms: 
    * BFS
