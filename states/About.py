@@ -60,7 +60,7 @@ class About(State):
         drawText("About", surface, 40, Color("red"), WIDTH/2, HEIGHT/2 - 200)
         drawText("*---------Author---------*" , surface, 30, Color("#178134"), WIDTH/2, HEIGHT/2 - 150)
         drawText("Name: Henry Ta" , surface, 25, Color("Black"), WIDTH/2, HEIGHT/2 - 105)
-        drawText("Email: hieu.td291294@zoho.com" , surface, 25, Color("Black"), WIDTH/2, HEIGHT/2 - 65)
+        drawText("Email: ********************" , surface, 25, Color("Black"), WIDTH/2, HEIGHT/2 - 65)
         drawText("Github: Henry-Ta" , surface, 25, Color("Black"), WIDTH/2, HEIGHT/2-25)
         drawText("*------------Project------------*" , surface, 30, Color("#178134"), WIDTH/2, HEIGHT/2 + 20)
         drawText("This project briefly shows some " , surface, 25, Color("Black"), WIDTH/2, HEIGHT/2 + 65)
